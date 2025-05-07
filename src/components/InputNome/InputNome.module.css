@@ -1,0 +1,26 @@
+.containerInput {
+    width: 100%;
+    padding: 5vw;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: var(--corPrincipal);
+}
+
+.input {
+    all:unset;
+    padding: 8px;
+    border-radius: 5px 0 0 5px;
+    background-color: var(--corSecundaria);
+    border: 2px solid var(--corSecundaria);
+    color: var(--corTerciaria);
+}
+
+.button {
+    all: unset;
+    background-color: var(--corTerciaria);
+    padding: 8px;
+    border: 2px solid var(--corSecundaria);
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
